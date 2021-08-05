@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background: url(/src/assets/background.jpg) no-repeat;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #0a040e;
+}
+
+.App {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: calc(300% / 49) calc(1200% / 49) calc(3400% / 49);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+[id*="Stroke"] {
+  stroke: gray;
+}
+
+svg {
+  cursor: pointer;
+}
